@@ -1,4 +1,4 @@
-#$Header: /home/cvs/date-passover/lib/Date/Passover.pm,v 1.2 2001/08/05 11:52:46 rbowen Exp $
+#$Header: /home/cvs/date-passover/lib/Date/Passover.pm,v 1.3 2001/08/05 19:55:25 rbowen Exp $
 package Date::Passover;
 use Date::GoldenNumber;
 use Date::DayOfWeek;
@@ -9,7 +9,7 @@ use strict;
 BEGIN {
 	use Exporter ();
 	use vars qw ($VERSION @ISA @EXPORT @EXPORT_OK %EXPORT_TAGS);
-	$VERSION     = (qw'$Revision: 1.2 $')[1];
+	$VERSION     = (qw'$Revision: 1.3 $')[1];
 	@ISA         = qw (Exporter);
 	@EXPORT      = qw (passover roshhashanah);
 	@EXPORT_OK   = qw ();
@@ -18,7 +18,7 @@ BEGIN {
 
 =head1 NAME
 
-Date::Passover - When is Passover
+Date::Passover - When is Passover? When is Rosh Hashanah?
 
 =head1 SYNOPSIS
 

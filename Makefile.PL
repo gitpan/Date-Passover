@@ -9,5 +9,6 @@ WriteMakefile(
     PREREQ_PM    => {
         Date::ICal => 0,
         Test::More => 0,
+        Date::DayOfWeek => 0,
         },
 );
