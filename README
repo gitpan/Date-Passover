@@ -1,0 +1,31 @@
+Date::Passover
+
+Calculate the date of Passover or Rosh Hashanah for any year.
+
+Based on algorithms found at
+http://quasar.as.utexas.edu/BillInfo/ReligiousCalendars.html
+
+use Date::Passover;
+
+# In list context
+($month, $day) = passover( 1996 );
+($month, $day) = roshhashanah( 1998 );
+
+# In scalar context returns a Date::ICal object
+$date = passover( 1996 );
+$date = roshhashanah( 1998 );
+
+See also:
+
+Date::ICal
+Date::Easter
+
+This package also contains Date::GoldenNumber, which calculates the
+golden number for a given year. This is used in so many calendar
+calculations that it is unlikely to remain in this package for very
+long.
+
+Rich Bowen
+rbowen@rcbowen.com
+http://dates.rcbowen.com/
+
