@@ -1,7 +1,7 @@
 LICENSE
-Changes
 Makefile.PL
 README
+ChangeLog
 
 lib/Date/Passover.pm
 lib/Date/GoldenNumber.pm
